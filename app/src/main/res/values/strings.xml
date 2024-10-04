@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Woof</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="item_categories">
+        <item>All</item>
+        <item>Food</item>
+        <item>Medicine</item>
+        <item>Treats</item>
+        <item>Toys</item>
+    </string-array>
+
+</resources>

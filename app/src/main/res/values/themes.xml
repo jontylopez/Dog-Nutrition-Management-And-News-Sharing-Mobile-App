@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Woof" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryVariant">@color/brown_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <!-- Add more theme customizations here -->
+    </style>
+
+    <style name="Theme.Woof" parent="Base.Theme.Woof" />
+
+    <!-- Custom DatePickerDialog Theme -->
+    <style name="CustomDatePickerDialog1" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorAccent">@color/brown</item>
+        <item name="android:datePickerStyle">@style/CustomDatePicker</item>
+    </style>
+
+    <!-- Custom DatePicker Style -->
+    <style name="CustomDatePicker" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="android:headerBackground">@color/brown</item>
+        <item name="android:calendarTextColor">@color/white</item>
+        <item name="android:buttonBarButtonStyle">@style/CustomButton</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/brown</item>
+    </style>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    android:background="@drawable/rounded_corner_background"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:contentDescription="Item Image" />
+
+    <TextView
+        android:id="@+id/iName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iImage"
+        android:layout_marginStart="16dp"
+        android:text="Item Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/iDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iName"
+        android:layout_toEndOf="@id/iImage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Item Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/iPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iDescription"
+        android:layout_toEndOf="@id/iImage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Price"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/edit_button_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/delete_button_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_button_item"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="30dp"
+        android:text="Delete" />
+</RelativeLayout>
+

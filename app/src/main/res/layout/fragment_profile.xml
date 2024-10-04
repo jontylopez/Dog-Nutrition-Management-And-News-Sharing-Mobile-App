@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/inventoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/brown"
+            android:fontFamily="@font/baloo"
+            android:gravity="center"
+            android:text="My Profile"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_user_management" />
+
+        <TextView
+            android:id="@+id/txtNameView"
+            android:background="@drawable/custom_input"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Name"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtEmailView"
+            android:background="@drawable/custom_input"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Email"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtPhoneView"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_input"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Phone"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txtDobView"
+            android:layout_width="match_parent"
+            android:background="@drawable/custom_input"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Date of Birth"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="match_parent"
+            android:textSize="24dp"
+            android:layout_height="60dp"
+            android:text="Edit"
+            android:layout_marginTop="24dp"/>
+        <Button
+            android:id="@+id/btnChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="24dp"
+            android:text="Change Password"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
